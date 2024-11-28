@@ -1,0 +1,111 @@
+/* Fondo suave con un gradiente para la página */
+body {
+  background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* Aseguramos que el formulario esté centrado en la pantalla */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f9fa, #e3f2fd); /* Fondo de la página */
+}
+
+/* Card con un gradiente */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Título del formulario */
+.card-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Campos de entrada */
+.form-control {
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  width: 100%; /* Asegura que todos los campos tengan el mismo tamaño */
+}
+
+/* Campos de entrada enfocados */
+.form-control:focus {
+  border-color: #6f42c1;
+  box-shadow: 0 0 5px rgba(111, 66, 193, 0.5);
+}
+
+/* Espaciado entre campos */
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+/* Botón de registrar */
+button {
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #5a2d9d;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #4c1d7d;
+  transform: translateY(0);
+}
+
+/* Añadir borde sutil al card */
+.card {
+  border: 2px solid #e0e0e0;
+}
+
+/* Iconos dentro de los labels */
+.form-label i {
+  margin-right: 10px;
+  color: #6f42c1;
+}
+
+/* Estilos adicionales para el fondo del formulario */
+.card-body {
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+/* Añadir transiciones suaves */
+input, textarea, button {
+  transition: all 0.3s ease;
+}
+
+/* Ajustes de espaciado general */
+form {
+  padding: 20px;
+}
+
+/* Fondo del botón */
+button {
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #5a2d9d;
+}
+
+button:active {
+  background-color: #4c1d7d;
+}

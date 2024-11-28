@@ -1,0 +1,95 @@
+/* login.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    border-radius: 20px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out; /* Efecto de hover */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de desplazamiento sutil al hacer hover */
+}
+
+/* Estilo del encabezado de la tarjeta */
+.card-header {
+    background-color: #2d3748; /* Color de fondo oscuro para el encabezado */
+    color: #fff; /* Texto blanco */
+    border-radius: 15px 15px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+/* Título */
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* Estilo para los campos de entrada */
+input.form-control {
+    background-color: #f9fafb; /* Fondo muy suave para los campos de entrada */
+    border: 1px solid #e2e8f0; /* Borde suave */
+    border-radius: 12px; /* Bordes redondeados */
+    padding: 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: #4a90e2; /* Resaltado suave al hacer foco */
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.3); /* Sombra suave */
+}
+
+/* Botón de inicio de sesión */
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border-radius: 25px; /* Bordes muy redondeados */
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+    border-color: #357abd;
+}
+
+/* Estilo para los enlaces de texto */
+a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4a90e2;
+}
+
+/* Mensaje de error */
+#error-message {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ff6b6b;
+    margin-top: 10px;
+}
+
+/* Enlace de 'olvidaste tu contraseña' */
+.card-footer {
+    font-size: 0.9rem;
+    padding-top: 10px;
+}
+
+.card-footer a {
+    color: #6c757d;
+}
+
+.card-footer a:hover {
+    color: #4a90e2;
+}
